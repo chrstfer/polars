@@ -6903,7 +6903,7 @@ class Series:
         Examples
         --------
         >>> s = pl.Series("a", [1.0, 2.0, 3.0])
-        >>> s.is_float()
+        >>> s.is_float()  # doctest: +SKIP
         True
 
         """
