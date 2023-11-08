@@ -215,6 +215,8 @@ filterwarnings = [
   # Ignore warnings issued by dependency internals
   "ignore:.*is_sparse is deprecated.*:FutureWarning",
   "ignore:FigureCanvasAgg is non-interactive:UserWarning",
+  "ignore:datetime.datetime.utcfromtimestamp\\(\\) is deprecated.*:DeprecationWarning",
+  "ignore:datetime.datetime.utcnow\\(\\) is deprecated.*:DeprecationWarning",
 ]
 xfail_strict = true
 
